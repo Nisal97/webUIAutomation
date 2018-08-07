@@ -35,6 +35,10 @@ public class Login extends BaseFunctions  {
         ogmLoginPage.cont();
     }
 
+//    public static void clickAccount(){
+//        LoggerUtil.logINFO("Clicking My Account");
+//        ogmLoginPage.clickAcc();
+//    }
 
 
     public static void loginToFtr() {

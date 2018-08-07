@@ -2,6 +2,7 @@ package com.sysco.WebAutomationAssignemnt.tests;
 
 
 import com.sysco.WebAutomationAssignemnt.data.LoginData;
+import com.sysco.WebAutomationAssignemnt.functions.Home;
 import com.sysco.WebAutomationAssignemnt.functions.Login;
 import com.sysco.WebAutomationAssignemnt.utils.ExcelUtil;
 import com.sysco.WebAutomationAssignemnt.utils.TestBase;
@@ -26,6 +27,8 @@ public class LoginTest extends TestBase {
         //UI Automation  sample
         Login.loadLoginPage();
         Login.setAge();
+//        Login.clickAccount();
+        Home.clickAccount();
 
 
 //        Login.quiteDriver();

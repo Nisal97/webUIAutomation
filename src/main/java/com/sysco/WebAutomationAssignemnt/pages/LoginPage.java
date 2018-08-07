@@ -21,6 +21,8 @@ public class LoginPage extends BasePage {
     private By countryDropdown = By.id("age_select_country");
     private By selectCountry = By.xpath("//*[@id=\"age_select_country\"]/option[237]");
 
+//    private By myAccount = By.xpath("//*[@id=\"nav-wrapper\"]/div/ul[1]/li[1]/a");
+
     public static void loadLoginPage(Capabilities capabilities, String url) {
         syscoLabUIOgm = new SyscoLabWUI(capabilities);
         syscoLabUIOgm.navigateTo(url);
@@ -63,6 +65,10 @@ public class LoginPage extends BasePage {
     public void setCountry(){
         syscoLabUIOgm.click(selectCountry);
     }
+
+//    public void clickAcc(){
+//        syscoLabUIOgm.click(myAccount);
+//    }
 
     public void quitDriver() {
         if (syscoLabUIOgm != null) {
