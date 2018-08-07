@@ -21,11 +21,15 @@ public class LoginTest extends TestBase {
     public void testLogin() throws Exception {
 
         // Sample way to retrive data from excel
-        LoginData loginData = ExcelUtil.getLoginData("$as238l");
+//        LoginData loginData = ExcelUtil.getLoginData("$as238l");
 
         //UI Automation  sample
         Login.loadLoginPage();
-        Login.quiteDriver();
+        Login.setAge();
+
+
+//        Login.quiteDriver();
+
 
     }
 }

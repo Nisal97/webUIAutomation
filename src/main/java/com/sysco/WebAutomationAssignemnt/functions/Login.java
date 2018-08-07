@@ -3,31 +3,39 @@ package com.sysco.WebAutomationAssignemnt.functions;
 import com.sysco.WebAutomationAssignemnt.common.Constants;
 import com.sysco.WebAutomationAssignemnt.pages.LoginPage;
 import com.sysco.WebAutomationAssignemnt.utils.DriverSetUpUtil;
+import com.syscolab.qe.core.common.LoggerUtil;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 /**
  * Created by Rifad on 5/21/18.
  */
-public class Login  {
+public class Login extends BaseFunctions  {
 
     public static LoginPage ogmLoginPage = new LoginPage();
 
 
-    public static void loadLoginPage() {
-
-        if (Constants.RUN_LOCALLY) {
-            DriverSetUpUtil.setToRunLocally();
-            DesiredCapabilities capabilities = null;
-            ogmLoginPage.loadLoginPage(capabilities, Constants.APP_URL);
-        } else {
-            ogmLoginPage.loadLoginPage(DriverSetUpUtil.setToRunRemotely(Constants.APP_OS), Constants.APP_URL);
-        }
+    public static void setAge(){
+        LoggerUtil.logINFO("Click date");
+        ogmLoginPage.clickDate();
+        LoggerUtil.logINFO("select date");
+        ogmLoginPage.setDate();
+        LoggerUtil.logINFO("click month");
+        ogmLoginPage.clickMonth();
+        LoggerUtil.logINFO("select month");
+        ogmLoginPage.setMonth();
+        LoggerUtil.logINFO("click year");
+        ogmLoginPage.clickYear();
+        LoggerUtil.logINFO("select year");
+        ogmLoginPage.setYear();
+        LoggerUtil.logINFO("click country");
+        ogmLoginPage.clickCountry();
+        LoggerUtil.logINFO("set country");
+        ogmLoginPage.setCountry();
+        LoggerUtil.logINFO("press continue");
+        ogmLoginPage.cont();
     }
 
 
-    public static void quiteDriver() {
-        ogmLoginPage.quitDriver();
-    }
 
     public static void loginToFtr() {
 

@@ -8,4 +8,6 @@ public class LoginData {
     public static String password;
     public static String iPAddress;
 
+//    public static int dateAge = 4;
+
 }
