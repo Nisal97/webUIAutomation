@@ -2,6 +2,7 @@ package com.sysco.WebAutomationAssignemnt.tests;
 
 
 import com.sysco.WebAutomationAssignemnt.data.LoginData;
+import com.sysco.WebAutomationAssignemnt.functions.Account;
 import com.sysco.WebAutomationAssignemnt.functions.Home;
 import com.sysco.WebAutomationAssignemnt.functions.Login;
 import com.sysco.WebAutomationAssignemnt.functions.Signin;
@@ -31,6 +32,7 @@ public class LoginTest extends TestBase {
 //        Login.clickAccount();
         Home.clickAccount();
         Signin.clickSignin();
+        Account.removeItem();
 
 
 //        Login.quiteDriver();
