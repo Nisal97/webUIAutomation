@@ -13,7 +13,19 @@ public class Account extends BaseFunctions {
         ogmAcountPage.clickCart();
 
 //        LoggerUtil.logINFO("Clicking Remove");
-//        ogmAcountPage.clickRemove();
+        ogmAcountPage.clickRemove();
+    }
+
+    public static void gotoProduct(){
+        ogmAcountPage.clickProduct();
+    }
+
+    public static void gotoBottleShop(){
+        ogmAcountPage.clickBottleShop();
+    }
+
+    public static void gotoExclusiveProducts(){
+        ogmAcountPage.clickExclusiveProducts();
     }
 
 }

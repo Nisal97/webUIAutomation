@@ -2,10 +2,7 @@ package com.sysco.WebAutomationAssignemnt.tests;
 
 
 import com.sysco.WebAutomationAssignemnt.data.LoginData;
-import com.sysco.WebAutomationAssignemnt.functions.Account;
-import com.sysco.WebAutomationAssignemnt.functions.Home;
-import com.sysco.WebAutomationAssignemnt.functions.Login;
-import com.sysco.WebAutomationAssignemnt.functions.Signin;
+import com.sysco.WebAutomationAssignemnt.functions.*;
 import com.sysco.WebAutomationAssignemnt.utils.ExcelUtil;
 import com.sysco.WebAutomationAssignemnt.utils.TestBase;
 import org.testng.ITestContext;
@@ -32,7 +29,13 @@ public class LoginTest extends TestBase {
 //        Login.clickAccount();
         Home.clickAccount();
         Signin.clickSignin();
-        Account.removeItem();
+//        Account.removeItem();
+        Account.gotoProduct();
+        Account.gotoBottleShop();
+        Account.gotoExclusiveProducts();
+
+        Item.purchaseItem();
+//        Catagory.goExclusiveCatagory();
 
 
 //        Login.quiteDriver();

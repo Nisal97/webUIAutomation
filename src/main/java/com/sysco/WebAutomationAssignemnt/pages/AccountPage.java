@@ -7,10 +7,13 @@ import org.testng.Assert;
 
 public class AccountPage extends BasePage {
 
-
     private By cart = By.xpath("//*[@id=\"cartHeader\"]");
+
     private By remove1 = By.id("cartheader-item-312683");
-    private By remove2 = By.id("cartheader-item-312700");
+    private By remove2 = By.id("cartheader-item-312710");
+    private By product = By.xpath("//*[@id=\"nav-wrapper\"]/div/ul[1]/li[1]/a");
+    private By bottleShop = By.xpath("/html/body/div[2]/div[3]/div[3]/div/div[2]/div[1]/div[1]/div[1]/div[1]/a/img");
+    private By exclusiveProducts = By.xpath("/html/body/div[2]/div[3]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a/img");
 
 //    WebElement loggedUser = syscoLabUIOgm.findElement(By.xpath("/html/body/div[2]/div[3]/div[2]/div[1]/div/div[3]/div[1]/h2"));
 //
@@ -26,14 +29,26 @@ public class AccountPage extends BasePage {
 
     }
 
-//    public void clickRemove(){
+    public void clickProduct(){
+        syscoLabUIOgm.click(product);
+    }
+
+    public void clickBottleShop(){
+        syscoLabUIOgm.click(bottleShop);
+    }
+
+    public void clickExclusiveProducts(){
+        syscoLabUIOgm.click(exclusiveProducts);
+    }
+
+    public void clickRemove(){
 //        syscoLabUIOgm.sleep(3);
 //        LoggerUtil.logINFO("Clicking Remove1");
 //        syscoLabUIOgm.click(remove1);
 //        syscoLabUIOgm.sleep(1);
 //        LoggerUtil.logINFO("Clicking Remove2");
 //        syscoLabUIOgm.click(remove2);
-//    }
+    }
 
 
 
