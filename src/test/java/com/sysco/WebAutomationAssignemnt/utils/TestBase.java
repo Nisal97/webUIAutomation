@@ -18,7 +18,6 @@ public class TestBase {
 
     @BeforeClass
     public void init() {
-
         testListeners = new SyscoLabListener();
         syscoLabQCenter = new SyscoLabQCenter();
     }
