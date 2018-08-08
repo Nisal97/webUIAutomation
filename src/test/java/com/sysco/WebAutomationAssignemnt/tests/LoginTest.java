@@ -18,6 +18,12 @@ public class LoginTest extends TestBase {
     }
 
     @Test
+    public void testWrongAgeLogin() throws Exception{
+        Login.loadLoginPage();
+        Login.wrongAge();
+    }
+
+    @Test
     public void testLogin() throws Exception {
 
         // Sample way to retrive data from excel
@@ -26,19 +32,17 @@ public class LoginTest extends TestBase {
         //UI Automation  sample
         Login.loadLoginPage();
         Login.setAge();
-//        Login.clickAccount();
         Home.clickAccount();
         Signin.clickSignin();
 //        Account.removeItem();
         Account.gotoProduct();
         Account.gotoBottleShop();
         Account.gotoExclusiveProducts();
-
-        Item.purchaseItem();
+//        Item.purchaseItem();
 //        Catagory.goExclusiveCatagory();
 
 
-//        Login.quiteDriver();
+        Login.quiteDriver();
 
 
     }

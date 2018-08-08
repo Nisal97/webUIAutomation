@@ -1,5 +1,6 @@
 package com.sysco.WebAutomationAssignemnt.pages;
 
+import com.syscolab.qe.core.common.LoggerUtil;
 import org.openqa.selenium.By;
 
 public class CatagoryPage extends BasePage{
@@ -8,6 +9,7 @@ public class CatagoryPage extends BasePage{
 
     public void clickExclusive(){
         syscoLabUIOgm.sleep(1);
+        LoggerUtil.logINFO("Go Exclusive catagory");
         syscoLabUIOgm.click(exclusiveCatagory);
     }
 }

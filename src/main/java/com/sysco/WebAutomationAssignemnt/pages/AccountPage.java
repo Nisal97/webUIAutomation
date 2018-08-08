@@ -25,6 +25,7 @@ public class AccountPage extends BasePage {
 
     public void clickCart(){
         syscoLabUIOgm.sleep(3);
+        syscoLabUIOgm.waitTillElementLoaded(cart);
         syscoLabUIOgm.click(cart);
 
     }
@@ -34,6 +35,7 @@ public class AccountPage extends BasePage {
     }
 
     public void clickBottleShop(){
+        LoggerUtil.logINFO("clicking bottleshop");
         syscoLabUIOgm.click(bottleShop);
     }
 

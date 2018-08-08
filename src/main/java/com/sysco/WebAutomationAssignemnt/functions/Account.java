@@ -17,14 +17,17 @@ public class Account extends BaseFunctions {
     }
 
     public static void gotoProduct(){
+        LoggerUtil.logINFO("going to product");
         ogmAcountPage.clickProduct();
     }
 
     public static void gotoBottleShop(){
+        LoggerUtil.logINFO("going to bottle shop");
         ogmAcountPage.clickBottleShop();
     }
 
     public static void gotoExclusiveProducts(){
+        LoggerUtil.logINFO("going to exclusive products");
         ogmAcountPage.clickExclusiveProducts();
     }
 

@@ -26,5 +26,6 @@ public class SigninPage extends BasePage {
     public void clickSignin(){
         LoggerUtil.logINFO("Signin confirm");
         syscoLabUIOgm.click(confirmSignin);
+        LoggerUtil.logINFO("logged");
     }
 }

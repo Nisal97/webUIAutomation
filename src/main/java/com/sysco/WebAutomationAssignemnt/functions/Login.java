@@ -35,6 +35,16 @@ public class Login extends BaseFunctions  {
         ogmLoginPage.cont();
     }
 
+    public static void wrongAge(){
+        ogmLoginPage.clickDate();
+        ogmLoginPage.setDate();
+        ogmLoginPage.clickMonth();
+        ogmLoginPage.setWrongMonth();
+        ogmLoginPage.clickYear();
+        ogmLoginPage.setWrongYear();
+        ogmLoginPage.cont();
+    }
+
 //    public static void clickAccount(){
 //        LoggerUtil.logINFO("Clicking My Account");
 //        ogmLoginPage.clickAcc();
