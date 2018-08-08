@@ -58,14 +58,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5107" />
+          <entry key="java" value="5142" />
           <entry key="txt" value="52" />
           <entry key="xml" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5107" />
+          <entry key="JAVA" value="5142" />
           <entry key="PLAIN_TEXT" value="52" />
           <entry key="XML" value="24" />
         </counts>
@@ -77,10 +77,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/WebAutomationAssignemnt/tests/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="630">
               <caret line="44" selection-start-line="44" selection-end-line="44" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,10 +104,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/AccountPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
+            <state relative-caret-position="118">
+              <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1261#1262#0" expanded="true" />
+                <element signature="e#1315#1316#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Account.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
+            <state relative-caret-position="240">
+              <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -257,8 +259,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/SigninPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/CatagoryPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/AccountPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Account.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/sysco/WebAutomationAssignemnt/tests/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Account.java" />
       </list>
     </option>
   </component>
@@ -276,8 +278,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1844" />
-    <option name="y" value="167" />
+    <option name="x" value="249" />
+    <option name="y" value="92" />
     <option name="width" value="975" />
     <option name="height" value="557" />
   </component>
@@ -414,7 +416,7 @@
     <property name="SearchEverywhereHistoryKey" value="Login&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Login.java&#10;Const&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/common/Constants.java&#10;LoginT&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/test/java/com/sysco/WebAutomationAssignemnt/tests/LoginTest.java&#10;Fun&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/BaseFunctions.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533747817820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533748491424" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -520,7 +522,7 @@
       <workItem from="1533527097728" duration="44358000" />
       <workItem from="1533696839762" duration="3127000" />
       <workItem from="1533728103690" duration="599000" />
-      <workItem from="1533733471502" duration="6822000" />
+      <workItem from="1533733471502" duration="7892000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1533008566611</created>
@@ -533,9 +535,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTest_testLogin - 2018.08.08 at 21h 33m 54s.xml">
-      <configuration name="LoginTest.testLogin" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LoginTest_testLogin - 2018.08.08 at 21h 35m 42s.xml">
       <configuration name="LoginTest.testLogin" configurationId="TestNG" />
     </history-entry>
@@ -563,15 +562,18 @@
     <history-entry file="LoginTest - 2018.08.08 at 22h 30m 46s.xml">
       <configuration name="LoginTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LoginTest - 2018.08.08 at 22h 34m 34s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70854000" />
+    <option name="totallyTimeSpent" value="71924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="55" y="25" width="1311" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19477054" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28853756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -580,7 +582,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49881423" visible="true" weight="0.35844994" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49881423" weight="0.35844994" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2540366" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -588,7 +590,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" sideWeight="0.4994664" weight="0.32901832" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.20775028" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32711864" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039524" side_tool="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960473" weight="0.8322034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -821,16 +823,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Catagory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-494">
@@ -873,36 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/CatagoryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/AccountPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Account.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="55" selection-start-line="29" selection-start-column="55" selection-end-line="29" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -915,8 +877,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sysco/WebAutomationAssignemnt/tests/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
+        <state relative-caret-position="630">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/CatagoryPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Catagory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/pages/AccountPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="41" column="40" lean-forward="true" selection-start-line="41" selection-start-column="40" selection-end-line="41" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1315#1316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="49" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

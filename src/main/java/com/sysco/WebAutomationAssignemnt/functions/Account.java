@@ -29,6 +29,7 @@ public class Account extends BaseFunctions {
     public static void gotoExclusiveProducts(){
         LoggerUtil.logINFO("going to exclusive products");
         ogmAcountPage.clickExclusiveProducts();
+        LoggerUtil.logINFO("in exclusive products");
     }
 
 }
