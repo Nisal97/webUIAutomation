@@ -11,11 +11,15 @@
     <classes>
       <class name="com.sysco.WebAutomationAssignemnt.tests.LoginTest">
         <methods>
+          <include name="testCorrectAgeLogin"/>
           <include name="beforeTest"/>
           <include name="init"/>
+          <include name="testWrongAgeLogin"/>
+          <include name="emptyPWvalidate"/>
           <include name="init"/>
           <include name="testLogin"/>
           <include name="cleanUp"/>
+          <include name="testNavigateMyAccount"/>
         </methods>
       </class> <!-- com.sysco.WebAutomationAssignemnt.tests.LoginTest -->
     </classes>

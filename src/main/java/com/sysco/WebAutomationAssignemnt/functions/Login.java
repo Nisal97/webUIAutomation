@@ -45,6 +45,10 @@ public class Login extends BaseFunctions  {
         ogmLoginPage.cont();
     }
 
+    public static String returnErrorMsg(){
+        return ogmLoginPage.returnAgeError();
+    }
+
 //    public static void clickAccount(){
 //        LoggerUtil.logINFO("Clicking My Account");
 //        ogmLoginPage.clickAcc();
