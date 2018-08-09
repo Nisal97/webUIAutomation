@@ -18,7 +18,7 @@ public class DriverSetUpUtil {
     //Please add your required drivers here
     public static void setToRunLocally() {
         if (System.getProperty("os.name").contains("Windows")) {
-            System.setProperty("webdriver.chrome.driver", "src/main/resources/chrome_driver/amd64/chromedriver");
+            System.setProperty("webdriver.chrome.driver", "src/main/resources/chrome_driver/amd64/chromedrivera");
         } else {
             System.setProperty("webdriver.chrome.driver", "src/main/resources/chrome_driver/" + System.getProperty("os.arch") + "/chromedriver");
         }

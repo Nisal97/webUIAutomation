@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: com.sysco.WebAutomationAssignemnt.tests.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 49.221 sec
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 47.418 sec
