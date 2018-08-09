@@ -67,7 +67,7 @@ public class LoginTest extends TestBase {
     public void emptyPWvalidate() throws Exception{
         Signin.emptyPassword();
         SoftAssert emptyPWErrorAssert = new SoftAssert();
-        emptyPWErrorAssert.assertEquals(Signin.returnShortPWError(),"Please enter 6 or more characters. Leading or trailing spaces will be ignored.");
+        emptyPWErrorAssert.assertEquals(Signin.returnShortPWError(),"This is a required field.");
         emptyPWErrorAssert.assertAll();
     }
 

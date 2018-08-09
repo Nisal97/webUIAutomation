@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                    <span class="method-stats">10 methods, 1 failed,   9 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -141,6 +141,11 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.sysco.WebAutomationAssignemnt.tests.LoginTest" hash-for-method="validateUsername">validateUsername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="com.sysco.WebAutomationAssignemnt.tests.LoginTest" hash-for-method="wrongCredentialsValidate">wrongCredentialsValidate</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -185,8 +190,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
 System info: host: &apos;nisal&apos;, ip: &apos;192.168.8.105&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.15.0-29-generic&apos;, java.version: &apos;1.8.0_181&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578700 (2f1ed5f9343c13..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:41105}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.75, webStorageEnabled: true}
-Session ID: 8e45833a0853409f00f756031780e642
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578700 (2f1ed5f9343c13..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:46649}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.75, webStorageEnabled: true}
+Session ID: eea854048b1cd69109a1e826f48a45b1
 *** Element info: {Using=id, value=advice-validate-password-pass}
 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
@@ -260,6 +265,15 @@ Session ID: 8e45833a0853409f00f756031780e642
                   <span class="method-name">testWrongAgeLogin</span>
                   <em>
 (validating using wrong age)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUsername">
+                  </a> <!-- validateUsername -->
+                  <span class="method-name">validateUsername</span>
+                  <em>
+(validating user name)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -363,48 +377,52 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(9);
+data.addRows(10);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testAccountSignin')
+data.setCell(0, 1, 'wrongPasswordValidate')
 data.setCell(0, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(0, 3, 14647);
+data.setCell(0, 3, 13400);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'testLogin')
 data.setCell(1, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(1, 3, 11412);
+data.setCell(1, 3, 10405);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'testNavigateMyAccount')
 data.setCell(2, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(2, 3, 8923);
+data.setCell(2, 3, 8742);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'wrongCredentialsValidate')
 data.setCell(3, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(3, 3, 6208);
+data.setCell(3, 3, 5601);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'wrongPasswordValidate')
+data.setCell(4, 1, 'wrongEmailValidate')
 data.setCell(4, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(4, 3, 4955);
+data.setCell(4, 3, 5404);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'wrongEmailValidate')
+data.setCell(5, 1, 'testAccountSignin')
 data.setCell(5, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(5, 3, 4756);
+data.setCell(5, 3, 4595);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testWrongAgeLogin')
+data.setCell(6, 1, 'testCorrectAgeLogin')
 data.setCell(6, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(6, 3, 1165);
+data.setCell(6, 3, 1129);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testCorrectAgeLogin')
+data.setCell(7, 1, 'testWrongAgeLogin')
 data.setCell(7, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(7, 3, 1135);
+data.setCell(7, 3, 1068);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'emptyPWvalidate')
 data.setCell(8, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
-data.setCell(8, 3, 748);
+data.setCell(8, 3, 724);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'validateUsername')
+data.setCell(9, 2, 'com.sysco.WebAutomationAssignemnt.tests.LoginTest')
+data.setCell(9, 3, 61);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 53 seconds</span>
+              <span class="suite-total-time">Total running time: 51 seconds</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -447,50 +465,54 @@ return data;
                 <span class="method-start">13 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-class before">
-                <span class="method-name">init(org.testng.TestRunner@5b69fd74)</span>
+                <span class="method-name">init(org.testng.TestRunner@4bd2f0dc)</span>
                 <span class="method-start">14 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testLogin</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testWrongAgeLogin</span>
-                <span class="method-start">11434 ms</span>
+                <span class="method-start">10425 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testCorrectAgeLogin</span>
-                <span class="method-start">12600 ms</span>
+                <span class="method-start">11494 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testNavigateMyAccount</span>
-                <span class="method-start">13737 ms</span>
+                <span class="method-start">12625 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">emptyPWvalidate</span>
-                <span class="method-start">22661 ms</span>
+                <span class="method-start">21367 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">wrongCredentialsValidate</span>
-                <span class="method-start">23652 ms</span>
+                <span class="method-start">22340 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">wrongPasswordValidate</span>
-                <span class="method-start">29860 ms</span>
+                <span class="method-start">27942 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">wrongEmailValidate</span>
-                <span class="method-start">34816 ms</span>
+                <span class="method-start">41342 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testAccountSignin</span>
-                <span class="method-start">39573 ms</span>
+                <span class="method-start">46747 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">validateUsername</span>
+                <span class="method-start">51343 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
-                <span class="method-name">cleanUp(org.testng.TestRunner@5b69fd74)</span>
-                <span class="method-start">54221 ms</span>
+                <span class="method-name">cleanUp(org.testng.TestRunner@4bd2f0dc)</span>
+                <span class="method-start">51404 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
