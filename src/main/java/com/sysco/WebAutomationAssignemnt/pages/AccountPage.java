@@ -8,6 +8,7 @@ import org.testng.Assert;
 public class AccountPage extends BasePage {
 
     private By cart = By.xpath("//*[@id=\"cartHeader\"]");
+    private By cartItems = By.xpath("//*//*[@id=\"quick-access-list\"]/li[2]/ul/li[3]/div/div[1]/span[2]");
 
     private By remove1 = By.id("cartheader-item-312683");
     private By remove2 = By.id("cartheader-item-312710");
@@ -37,6 +38,15 @@ public class AccountPage extends BasePage {
 
     public String returnAccountName(){
         return syscoLabUIOgm.getText(accountName);
+    }
+
+    public String returnCartItemCount(){
+        return syscoLabUIOgm.getText(cartItems);
+
+//        while (cartItems == 0){
+//
+//        }
+
     }
 
 

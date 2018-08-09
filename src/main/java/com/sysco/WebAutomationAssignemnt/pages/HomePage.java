@@ -16,7 +16,7 @@ public class HomePage extends BasePage{
 
     public void clickAcc(){
 //        syscoLabUIOgm.waitTillElementLoaded(myAccount);
-        syscoLabUIOgm.sleep(5);
+        syscoLabUIOgm.sleep(2);
         syscoLabUIOgm.click(myAccount);
     }
 

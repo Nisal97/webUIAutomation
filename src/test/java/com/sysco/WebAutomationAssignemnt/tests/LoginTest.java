@@ -5,6 +5,7 @@ import com.sysco.WebAutomationAssignemnt.data.LoginData;
 import com.sysco.WebAutomationAssignemnt.functions.*;
 import com.sysco.WebAutomationAssignemnt.utils.ExcelUtil;
 import com.sysco.WebAutomationAssignemnt.utils.TestBase;
+import com.syscolab.qe.core.common.LoggerUtil;
 import net.sf.ezmorph.test.ArrayAssertions;
 import org.testng.ITestContext;
 import org.testng.annotations.BeforeClass;
@@ -106,6 +107,22 @@ public class LoginTest extends TestBase {
         SoftAssert accountNameAssert = new SoftAssert();
         accountNameAssert.assertEquals(Account.returnAccName(),"HELLO, WILLIAM JACOB!");
         accountNameAssert.assertAll();
+    }
+
+    @Test(description = "validating cart", dependsOnMethods = "validateUsername", alwaysRun = true)
+    public void validateCart() throws Exception{
+//        Account.cartItems();
+//        SoftAssert cartAssert = new SoftAssert();
+//        cartAssert.assertEquals(Account.returnAccName(),"1");
+//        cartAssert.assertAll();
+
+        Account.gotoProduct();
+        LoggerUtil.logINFO("going to product");
+    }
+
+    @Test(description = "Choosing item", dependsOnMethods = "validateCart", alwaysRun = true)
+    public void testChooseItem() throws Exception{
+        Catagory.chooseProduct();
     }
 
 

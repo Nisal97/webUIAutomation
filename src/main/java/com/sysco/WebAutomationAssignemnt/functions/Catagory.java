@@ -12,15 +12,10 @@ public class Catagory extends BaseFunctions {
 //        ogmCatagoryPage.clickExclusive();
 //    }
 
-    public static void gotoBottleShop(){
-        LoggerUtil.logINFO("going to bottle shop");
-        ogmCatagoryPage.clickBottleShop();
-    }
 
-    public static void gotoExclusiveProducts(){
-        LoggerUtil.logINFO("going to exclusive products");
+    public static void chooseProduct(){
+        ogmCatagoryPage.clickBottleShop();
         ogmCatagoryPage.clickExclusiveProducts();
-        LoggerUtil.logINFO("in exclusive products");
     }
 
     public static void clickOneBottle(){

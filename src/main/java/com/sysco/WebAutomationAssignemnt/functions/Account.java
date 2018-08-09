@@ -6,23 +6,28 @@ import com.syscolab.qe.core.common.LoggerUtil;
 
 public class Account extends BaseFunctions {
 
-    public static AccountPage ogmAcountPage = new AccountPage();
+    public static AccountPage ogmAccountPage = new AccountPage();
 
     public static void removeItem(){
         LoggerUtil.logINFO("Clicking Cart");
-        ogmAcountPage.clickCart();
+        ogmAccountPage.clickCart();
 
 //        LoggerUtil.logINFO("Clicking Remove");
-        ogmAcountPage.clickRemove();
+        ogmAccountPage.clickRemove();
     }
 
     public static void gotoProduct(){
         LoggerUtil.logINFO("going to product");
-        ogmAcountPage.clickProduct();
+        ogmAccountPage.clickProduct();
     }
 
     public static String returnAccName(){
-        return ogmAcountPage.returnAccountName();
+        return ogmAccountPage.returnAccountName();
+    }
+
+    public static String cartItems(){
+        return ogmAccountPage.returnCartItemCount();
+
     }
 
 }

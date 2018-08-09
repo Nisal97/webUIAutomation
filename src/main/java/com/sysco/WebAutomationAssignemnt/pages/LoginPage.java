@@ -4,9 +4,7 @@ import com.syscolab.qe.core.ui.web.SyscoLabWUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Capabilities;
 
-/**
- * Created by Rifad on 5/21/18.
- */
+
 public class LoginPage extends BasePage {
 
     private By txtGoogleSearch = By.id("lst-ib");
