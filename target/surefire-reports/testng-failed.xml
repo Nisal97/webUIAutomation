@@ -7,21 +7,4 @@
       <class name="com.sysco.WebAutomationAssignemnt.utils.TestBase"/>
     </classes>
   </test> <!-- Command line test -->
-  <test name="Command line test(failed)">
-    <classes>
-      <class name="com.sysco.WebAutomationAssignemnt.tests.LoginTest">
-        <methods>
-          <include name="testCorrectAgeLogin"/>
-          <include name="beforeTest"/>
-          <include name="init"/>
-          <include name="testWrongAgeLogin"/>
-          <include name="emptyPWvalidate"/>
-          <include name="init"/>
-          <include name="testLogin"/>
-          <include name="cleanUp"/>
-          <include name="testNavigateMyAccount"/>
-        </methods>
-      </class> <!-- com.sysco.WebAutomationAssignemnt.tests.LoginTest -->
-    </classes>
-  </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

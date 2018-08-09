@@ -9,7 +9,7 @@ public class SigninPage extends BasePage {
     private By passwordSignin = By.id("pass");
     private By confirmSignin  = By.id("send2");
     private By credentialsError = By.xpath("/html/body/div[3]/div[3]/div[2]/div/div/ul/li");
-    private By emptyPwError = By.id("advice-validate-password-pass");
+    private By emptyPwError = By.id("advice-required-password-pass");
 
 
     public void emailFill(){

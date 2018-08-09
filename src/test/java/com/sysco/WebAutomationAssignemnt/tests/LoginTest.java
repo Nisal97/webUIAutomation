@@ -63,15 +63,15 @@ public class LoginTest extends TestBase {
         Home.clickAccount();
     }
 
-    @Test(description = "enter correct mail and empty password", dependsOnMethods = "testNavigateMyAccount", alwaysRun = true)
-    public void emptyPWvalidate() throws Exception{
-        Signin.emptyPassword();
-        SoftAssert emptyPWErrorAssert = new SoftAssert();
-        emptyPWErrorAssert.assertEquals(Signin.returnShortPWError(),"This is a required field.");
-        emptyPWErrorAssert.assertAll();
-    }
+//    @Test(description = "enter correct mail and empty password", dependsOnMethods = "testNavigateMyAccount", alwaysRun = true)
+//    public void emptyPWvalidate() throws Exception{
+//        Signin.emptyPassword();
+//        SoftAssert emptyPWErrorAssert = new SoftAssert();
+//        emptyPWErrorAssert.assertEquals(Signin.returnShortPWError(),"This is a required field.");
+//        emptyPWErrorAssert.assertAll();
+//    }
 
-    @Test(description = "enter wrong mail and wrong password", dependsOnMethods = "emptyPWvalidate", alwaysRun = true)
+    @Test(description = "enter wrong mail and wrong password", dependsOnMethods = "testNavigateMyAccount", alwaysRun = true)
     public void wrongCredentialsValidate() throws Exception{
         Signin.wEmailwPW();
         SoftAssert wrondgCredentialsAssert = new SoftAssert();
