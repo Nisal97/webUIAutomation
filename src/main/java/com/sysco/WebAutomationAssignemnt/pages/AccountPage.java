@@ -12,6 +12,7 @@ public class AccountPage extends BasePage {
     private By remove1 = By.id("cartheader-item-312683");
     private By remove2 = By.id("cartheader-item-312710");
     private By product = By.xpath("//*[@id=\"nav-wrapper\"]/div/ul[1]/li[1]/a");
+    private By accountName = By.xpath("/html/body/div[2]/div[3]/div[2]/div[1]/div/div[3]/div[1]/h2");
 
 
 
@@ -32,6 +33,10 @@ public class AccountPage extends BasePage {
 
     public void clickProduct(){
         syscoLabUIOgm.click(product);
+    }
+
+    public String returnAccountName(){
+        return syscoLabUIOgm.getText(accountName);
     }
 
 

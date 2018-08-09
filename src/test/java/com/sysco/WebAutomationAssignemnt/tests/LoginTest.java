@@ -98,7 +98,14 @@ public class LoginTest extends TestBase {
     @Test(description = "signin to my account with correct email and password", dependsOnMethods = "wrongEmailValidate", alwaysRun = true)
     public void testAccountSignin() throws Exception{
         Signin.cEmailcPW();
-        Signin.quiteDriver();
+    }
+
+    @Test(description = "validating user name", dependsOnMethods = "testAccountSignin", alwaysRun = true)
+    public void validateUsername() throws Exception{
+        Account.returnAccName();
+        SoftAssert accountNameAssert = new SoftAssert();
+        accountNameAssert.assertEquals(Account.returnAccName(),"HELLO, WILLIAM JACOB!");
+        accountNameAssert.assertAll();
     }
 
 

@@ -21,6 +21,8 @@ public class Account extends BaseFunctions {
         ogmAcountPage.clickProduct();
     }
 
-
+    public static String returnAccName(){
+        return ogmAcountPage.returnAccountName();
+    }
 
 }
