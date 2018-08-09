@@ -10,6 +10,8 @@ public class CatagoryPage extends BasePage{
     private By bottleShop = By.xpath("//*[@id=\"nav-wrapper\"]/div/ul[1]/li[1]");
     private By exclusiveProducts = By.xpath("/html/body/div[2]/div[3]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a/img");
 
+    private By neededBottle = By.xpath("*[@id=\"product-tracking-1414\"]/div[1]/a");
+
 //    public void clickExclusive(){
 //        syscoLabUIOgm.sleep(1);
 //        LoggerUtil.logINFO("Go Exclusive catagory");
@@ -25,4 +27,12 @@ public class CatagoryPage extends BasePage{
         syscoLabUIOgm.click(exclusiveProducts);
     }
 
+    public void selectBottle(){
+        syscoLabUIOgm.sleep(1);
+        LoggerUtil.logINFO("click bottle");
+        syscoLabUIOgm.click(neededBottle);
+        LoggerUtil.logINFO("done clicking bottle");
+    }
+
 }
+

@@ -23,4 +23,8 @@ public class Catagory extends BaseFunctions {
         LoggerUtil.logINFO("in exclusive products");
     }
 
+    public static void clickOneBottle(){
+        ogmCatagoryPage.selectBottle();
+    }
+
 }
