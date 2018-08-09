@@ -36,8 +36,8 @@ public class LoginTest extends TestBase {
         Signin.clickSignin();
 //        Account.removeItem();
         Account.gotoProduct();
-        Account.gotoBottleShop();
-        Account.gotoExclusiveProducts();
+        Catagory.gotoBottleShop();
+        Catagory.gotoExclusiveProducts();
 //        Item.purchaseItem();
 //        Catagory.goExclusiveCatagory();
 
