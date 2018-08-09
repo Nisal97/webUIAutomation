@@ -2,71 +2,71 @@
 <testng-results skipped="0" failed="0" total="9" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="48699" started-at="2018-08-09T17:21:48Z" finished-at="2018-08-09T17:22:37Z">
+  <suite name="Command line suite" duration-ms="48856" started-at="2018-08-09T17:29:28Z" finished-at="2018-08-09T17:30:17Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="48699" started-at="2018-08-09T17:21:48Z" finished-at="2018-08-09T17:22:37Z">
+    <test name="Command line test" duration-ms="48856" started-at="2018-08-09T17:29:28Z" finished-at="2018-08-09T17:30:17Z">
       <class name="com.sysco.WebAutomationAssignemnt.tests.LoginTest">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="beforeTest" is-config="true" duration-ms="7" started-at="2018-08-09T22:51:48Z" finished-at="2018-08-09T22:51:48Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="beforeTest" is-config="true" duration-ms="7" started-at="2018-08-09T22:59:28Z" finished-at="2018-08-09T22:59:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="init" is-config="true" duration-ms="1" started-at="2018-08-09T22:51:48Z" finished-at="2018-08-09T22:51:48Z">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="init" is-config="true" duration-ms="1" started-at="2018-08-09T22:59:28Z" finished-at="2018-08-09T22:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="init(org.testng.ITestContext)[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="init" is-config="true" duration-ms="1" started-at="2018-08-09T22:59:28Z" finished-at="2018-08-09T22:59:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d28bcd5]]>
+                <![CDATA[org.testng.TestRunner@79b663b3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="init()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="init" is-config="true" duration-ms="0" started-at="2018-08-09T22:51:48Z" finished-at="2018-08-09T22:51:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testLogin" duration-ms="14502" started-at="2018-08-09T22:51:48Z" finished-at="2018-08-09T22:52:03Z">
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testLogin" duration-ms="14049" started-at="2018-08-09T22:59:28Z" finished-at="2018-08-09T22:59:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method status="PASS" signature="testWrongAgeLogin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testWrongAgeLogin" duration-ms="1191" started-at="2018-08-09T22:52:03Z" description="validating using wrong age" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testLogin" finished-at="2018-08-09T22:52:04Z">
+        <test-method status="PASS" signature="testWrongAgeLogin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testWrongAgeLogin" duration-ms="1149" started-at="2018-08-09T22:59:42Z" description="validating using wrong age" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testLogin" finished-at="2018-08-09T22:59:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrongAgeLogin -->
-        <test-method status="PASS" signature="testCorrectAgeLogin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testCorrectAgeLogin" duration-ms="1051" started-at="2018-08-09T22:52:04Z" description="enter using correct age" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testWrongAgeLogin" finished-at="2018-08-09T22:52:05Z">
+        <test-method status="PASS" signature="testCorrectAgeLogin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testCorrectAgeLogin" duration-ms="1094" started-at="2018-08-09T22:59:43Z" description="enter using correct age" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testWrongAgeLogin" finished-at="2018-08-09T22:59:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCorrectAgeLogin -->
-        <test-method status="PASS" signature="testNavigateMyAccount()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testNavigateMyAccount" duration-ms="9413" started-at="2018-08-09T22:52:05Z" description="naviagting to my  account" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testCorrectAgeLogin" finished-at="2018-08-09T22:52:14Z">
+        <test-method status="PASS" signature="testNavigateMyAccount()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testNavigateMyAccount" duration-ms="9883" started-at="2018-08-09T22:59:44Z" description="naviagting to my  account" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testCorrectAgeLogin" finished-at="2018-08-09T22:59:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testNavigateMyAccount -->
-        <test-method status="PASS" signature="wrongCredentialsValidate()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="wrongCredentialsValidate" duration-ms="4740" started-at="2018-08-09T22:52:14Z" description="enter wrong mail and wrong password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testNavigateMyAccount" finished-at="2018-08-09T22:52:19Z">
+        <test-method status="PASS" signature="wrongCredentialsValidate()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="wrongCredentialsValidate" duration-ms="4586" started-at="2018-08-09T22:59:54Z" description="enter wrong mail and wrong password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testNavigateMyAccount" finished-at="2018-08-09T22:59:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongCredentialsValidate -->
-        <test-method status="PASS" signature="wrongPasswordValidate()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="wrongPasswordValidate" duration-ms="5150" started-at="2018-08-09T22:52:19Z" description="enter correct mail and wrong password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.wrongCredentialsValidate" finished-at="2018-08-09T22:52:24Z">
+        <test-method status="PASS" signature="wrongPasswordValidate()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="wrongPasswordValidate" duration-ms="5311" started-at="2018-08-09T22:59:59Z" description="enter correct mail and wrong password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.wrongCredentialsValidate" finished-at="2018-08-09T23:00:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongPasswordValidate -->
-        <test-method status="PASS" signature="wrongEmailValidate()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="wrongEmailValidate" duration-ms="4923" started-at="2018-08-09T22:52:24Z" description="enter wrong mail and correct password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.wrongPasswordValidate" finished-at="2018-08-09T22:52:29Z">
+        <test-method status="PASS" signature="wrongEmailValidate()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="wrongEmailValidate" duration-ms="5049" started-at="2018-08-09T23:00:04Z" description="enter wrong mail and correct password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.wrongPasswordValidate" finished-at="2018-08-09T23:00:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- wrongEmailValidate -->
-        <test-method status="PASS" signature="testAccountSignin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testAccountSignin" duration-ms="4207" started-at="2018-08-09T22:52:29Z" description="signin to my account with correct email and password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.wrongEmailValidate" finished-at="2018-08-09T22:52:33Z">
+        <test-method status="PASS" signature="testAccountSignin()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="testAccountSignin" duration-ms="4350" started-at="2018-08-09T23:00:09Z" description="signin to my account with correct email and password" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.wrongEmailValidate" finished-at="2018-08-09T23:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAccountSignin -->
-        <test-method status="PASS" signature="validateUsername()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="validateUsername" duration-ms="72" started-at="2018-08-09T22:52:33Z" description="validating user name" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testAccountSignin" finished-at="2018-08-09T22:52:34Z">
+        <test-method status="PASS" signature="validateUsername()[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="validateUsername" duration-ms="71" started-at="2018-08-09T23:00:14Z" description="validating user name" depends-on-methods="com.sysco.WebAutomationAssignemnt.tests.LoginTest.testAccountSignin" finished-at="2018-08-09T23:00:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateUsername -->
-        <test-method status="PASS" signature="cleanUp(org.testng.ITestContext)[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="cleanUp" is-config="true" duration-ms="3419" started-at="2018-08-09T22:52:34Z" finished-at="2018-08-09T22:52:37Z">
+        <test-method status="PASS" signature="cleanUp(org.testng.ITestContext)[pri:0, instance:com.sysco.WebAutomationAssignemnt.tests.LoginTest@51081592]" name="cleanUp" is-config="true" duration-ms="3288" started-at="2018-08-09T23:00:14Z" finished-at="2018-08-09T23:00:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5d28bcd5]]>
+                <![CDATA[org.testng.TestRunner@79b663b3]]>
               </value>
             </param>
           </params>

@@ -90,7 +90,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/common/Constants.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
@@ -99,10 +99,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/utils/DriverSetUpUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="82">
               <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
             </state>
           </provider>
@@ -326,6 +326,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="WebAutomationAssignemnt" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="sysco_WebAutomationAssignemnt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="sysco_WebAutomationAssignemnt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="WebAutomationAssignemnt" type="462c0819:PsiDirectoryNode" />
               <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -411,7 +420,7 @@
     <property name="SearchEverywhereHistoryKey" value="Login&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Login.java&#10;Const&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/common/Constants.java&#10;LoginT&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/test/java/com/sysco/WebAutomationAssignemnt/tests/LoginTest.java&#10;Fun&#9;FILE&#9;file:///home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/BaseFunctions.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533835583994" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533835827587" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -538,7 +547,7 @@
       <workItem from="1533696839762" duration="3127000" />
       <workItem from="1533728103690" duration="599000" />
       <workItem from="1533733471502" duration="9550000" />
-      <workItem from="1533784091953" duration="18290000" />
+      <workItem from="1533784091953" duration="18779000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1533008566611</created>
@@ -583,7 +592,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91872000" />
+    <option name="totallyTimeSpent" value="92361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="-2" width="1920" height="1082" extended-state="6" />
@@ -606,7 +615,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" sideWeight="0.4994664" weight="0.32901832" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.49838537" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23035522" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50039524" side_tool="true" weight="0.32881355" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49960473" weight="0.8322034" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1007,17 +1016,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/utils/DriverSetUpUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/common/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="92" selection-start-line="4" selection-start-column="92" selection-end-line="4" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sysco/WebAutomationAssignemnt/utils/DriverSetUpUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="110" selection-start-line="20" selection-start-column="110" selection-end-line="20" selection-end-column="110" />
         </state>
       </provider>
     </entry>
