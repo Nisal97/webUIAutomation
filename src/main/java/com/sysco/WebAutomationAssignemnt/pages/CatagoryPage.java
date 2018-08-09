@@ -12,11 +12,6 @@ public class CatagoryPage extends BasePage{
 
     private By neededBottle = By.xpath("*[@id=\"product-tracking-1414\"]/div[1]/a");
 
-//    public void clickExclusive(){
-//        syscoLabUIOgm.sleep(1);
-//        LoggerUtil.logINFO("Go Exclusive catagory");
-//        syscoLabUIOgm.click(exclusiveCatagory);
-//    }
 
     public void clickBottleShop(){
         LoggerUtil.logINFO("clicking bottleshop");

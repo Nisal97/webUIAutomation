@@ -17,11 +17,6 @@ public class LoginTest extends TestBase {
         iTestContext.setAttribute("feature", "Bundabergrum - Checkout");
     }
 
-    @Test
-    public void testWrongAgeLogin() throws Exception{
-        Login.loadLoginPage();
-        Login.wrongAge();
-    }
 
     @Test
     public void testLogin() throws Exception {
@@ -30,20 +25,39 @@ public class LoginTest extends TestBase {
 //        LoginData loginData = ExcelUtil.getLoginData("$as238l");
 
         //UI Automation  sample
-        Login.loadLoginPage();
-        Login.setAge();
-        Home.clickAccount();
-        Signin.clickSignin();
+
+//        Home.clickAccount();
+//        Signin.clickSignin();
+//        Account.gotoProduct();
+//        Catagory.gotoBottleShop();
+//        Catagory.clickOneBottle();
+
+
+
 //        Account.removeItem();
-        Account.gotoProduct();
-        Catagory.gotoBottleShop();
-        Catagory.clickOneBottle();
 //        Item.purchaseItem();
 //        Catagory.goExclusiveCatagory();
 
 
         Login.quiteDriver();
+    }
 
+    @Test(description = "validating using wrong age", dependsOnMethods = "testLogin")
+    public void testWrongAgeLogin() throws Exception{
+        Login.loadLoginPage();
+        Login.wrongAge();
+    }
+
+    @Test(description = "validating using wrong age", dependsOnMethods = "testWrongAgeLogin")
+    public void testCorrectAgeLogin() throws Exception{
+        Login.loadLoginPage();
+        Login.setAge();
+    }
+
+    @Test(description = "naviagting to my  account", dependsOnMethods = "testCorrectAgeLogin")
+    public void navigateMyAccount() throws Exception{
 
     }
+
+
 }
