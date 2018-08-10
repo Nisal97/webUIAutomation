@@ -4,7 +4,7 @@ import com.sysco.WebAutomationAssignemnt.pages.BottlePage;
 
 public class Bottle extends BaseFunctions {
 
-    public static BottlePage ogmBottlePage = new BottlePage();
+
 
     public static String verifyBottleName(){
         return ogmBottlePage.returnBottleName();
@@ -16,5 +16,9 @@ public class Bottle extends BaseFunctions {
 
     public static void addCart(){
         ogmBottlePage.clickAddCart();
+    }
+
+    public static void checkoutItem(){
+        ogmBottlePage.clickcheckout();
     }
 }

@@ -5,7 +5,6 @@ import com.syscolab.qe.core.common.LoggerUtil;
 
 public class Catagory extends BaseFunctions {
 
-    public static CatagoryPage ogmCatagoryPage = new CatagoryPage();
 
 //    public static void goExclusiveCatagory(){
 //        LoggerUtil.logINFO("clicking exclusive liquor");

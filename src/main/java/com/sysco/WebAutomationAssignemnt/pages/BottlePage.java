@@ -8,6 +8,7 @@ public class BottlePage extends BasePage {
     public By bottleName = By.xpath("//*[@id=\"product-info\"]/div/div[1]");
     public By bottlePrice = By.xpath("//*[@id=\"product-price-1414\"]/span");
     public By addCartBtn = By.xpath("//*[@id=\"price-inner-content\"]/div[2]/div/div[2]/button/span/span");
+    public By checkoutBtn = By.xpath("//*[@id=\"topCartContent\"]/div/div/div");
 
     public String returnBottleName(){
         syscoLabUIOgm.sleep(1);
@@ -26,6 +27,14 @@ public class BottlePage extends BasePage {
         LoggerUtil.logINFO("clicking add to cart");
         syscoLabUIOgm.click(addCartBtn);
         LoggerUtil.logINFO("bottle addded to cart");
+    }
+
+    public void clickcheckout(){
+        syscoLabUIOgm.sleep(1);
+        LoggerUtil.logINFO("clicking checkout from dropdown");
+        syscoLabUIOgm.waitTillElementLoaded(checkoutBtn);
+        syscoLabUIOgm.click(checkoutBtn);
+        LoggerUtil.logINFO("checkout clicked");
     }
 
 }

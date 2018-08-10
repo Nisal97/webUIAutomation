@@ -11,7 +11,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
  */
 public class Login extends BaseFunctions  {
 
-    public static LoginPage ogmLoginPage = new LoginPage();
+
 
 
     public static void setAge(){

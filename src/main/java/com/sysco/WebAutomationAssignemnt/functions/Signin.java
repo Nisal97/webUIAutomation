@@ -5,7 +5,7 @@ import com.syscolab.qe.core.common.LoggerUtil;
 
 public class Signin extends BaseFunctions {
 
-    public static SigninPage ogmSigninPage = new SigninPage();
+
 
     public static void cEmailcPW(){
         LoggerUtil.logINFO("correct email and correct password enetered and signin");

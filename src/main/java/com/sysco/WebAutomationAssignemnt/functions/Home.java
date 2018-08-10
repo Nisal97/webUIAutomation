@@ -6,7 +6,7 @@ import com.syscolab.qe.core.common.LoggerUtil;
 
 public class Home extends BaseFunctions {
 
-    public static HomePage ogmHomePage = new HomePage();
+
 
     public static void clickAccount(){
         LoggerUtil.logINFO("Clicking My Account");

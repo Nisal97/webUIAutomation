@@ -145,4 +145,9 @@ public class LoginTest extends TestBase {
     public void testBottleAddCart() throws Exception{
         Bottle.addCart();
     }
+
+    @Test(description = "checkout item", dependsOnMethods = "testBottleAddCart", alwaysRun = true)
+    public void testCheckoutItem() throws Exception{
+       Bottle.checkoutItem();
+    }
 }

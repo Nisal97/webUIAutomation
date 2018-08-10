@@ -5,7 +5,7 @@ import com.syscolab.qe.core.common.LoggerUtil;
 
 public class Item extends BaseFunctions {
 
-    public static ItemPage ogmItemPage = new ItemPage();
+
 
     public static void purchaseItem(){
         ogmItemPage.clickOnItem();
