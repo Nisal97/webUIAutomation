@@ -107,6 +107,8 @@ public class LoginTest extends TestBase {
         SoftAssert accountNameAssert = new SoftAssert();
         accountNameAssert.assertEquals(Account.returnAccName(),"HELLO, WILLIAM JACOB!");
         accountNameAssert.assertAll();
+
+//        Account.removeItem();
     }
 
     @Test(description = "validating cart", dependsOnMethods = "validateUsername", alwaysRun = true)
@@ -125,5 +127,22 @@ public class LoginTest extends TestBase {
         Catagory.chooseProduct();
     }
 
+//    @Test(description = "verify bottle name", dependsOnMethods = "testChooseItem", alwaysRun = true)
+//    public void testValidateBottleName() throws Exception{
+//        SoftAssert bottleNameAssert = new SoftAssert();
+//        bottleNameAssert.assertEquals(Bottle.verifyBottleName(),"Bundaberg Royal Liqueur Salted Caramel");
+//        bottleNameAssert.assertAll();
+//    }
 
+    @Test(description = "verify bottle price", dependsOnMethods = "testChooseItem", alwaysRun = true)
+    public void testValidateBottlePrice() throws Exception{
+        SoftAssert bottlePriceAssert = new SoftAssert();
+        bottlePriceAssert.assertEquals(Bottle.verifyBottlePrice(),"$49.95");
+        bottlePriceAssert.assertAll();
+    }
+
+    @Test(description = "verify bottle price", dependsOnMethods = "testValidateBottlePrice", alwaysRun = true)
+    public void testBottleAddCart() throws Exception{
+        Bottle.addCart();
+    }
 }

@@ -8,9 +8,8 @@ public class CatagoryPage extends BasePage{
 //    private By exclusiveCatagory = By.xpath("//*[@id=\"nav-wrapper\"]/div/div[4]/div[1]/div[1]/ul/li/ul/li[1]/a");
 
     private By bottleShop = By.xpath("//*[@id=\"nav-wrapper\"]/div/ul[1]/li[1]");
-    private By exclusiveProducts = By.xpath("/html/body/div[2]/div[3]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a");
-
-    private By neededBottle = By.xpath("*[@id=\"product-tracking-1414\"]/div[1]/a");
+    private By exclusiveProducts = By.xpath("/html/body/div[2]/div[3]/div[3]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/a/img");
+    private By orderingBottle = By.xpath("//*[@id=\"main-image\"]/img");
 
 
     public void clickBottleShop(){
@@ -21,17 +20,22 @@ public class CatagoryPage extends BasePage{
 
 
     public void clickExclusiveProducts(){
+        syscoLabUIOgm.sleep(1);
         LoggerUtil.logINFO("clicking exclusive");
         syscoLabUIOgm.click(exclusiveProducts);
+        syscoLabUIOgm.click(exclusiveProducts);
         LoggerUtil.logINFO("clicked exclusive");
+        syscoLabUIOgm.sleep(2);
     }
 
-    public void selectBottle(){
+    public void clickOnBottle(){
         syscoLabUIOgm.sleep(1);
-        LoggerUtil.logINFO("click bottle");
-        syscoLabUIOgm.click(neededBottle);
-        LoggerUtil.logINFO("done clicking bottle");
+        LoggerUtil.logINFO("clicking bottle");
+        syscoLabUIOgm.click(orderingBottle);
+        LoggerUtil.logINFO("clicked bottle");
+        syscoLabUIOgm.sleep(2);
     }
+
 
 
 }

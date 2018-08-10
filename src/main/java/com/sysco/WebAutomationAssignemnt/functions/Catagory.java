@@ -16,10 +16,8 @@ public class Catagory extends BaseFunctions {
     public static void chooseProduct(){
         ogmCatagoryPage.clickBottleShop();
         ogmCatagoryPage.clickExclusiveProducts();
+        ogmCatagoryPage.clickOnBottle();
     }
 
-    public static void clickOneBottle(){
-        ogmCatagoryPage.selectBottle();
-    }
 
 }

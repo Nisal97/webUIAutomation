@@ -6,6 +6,7 @@
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/pages/LoginPage.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/data/LoginData.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/pages/CatagoryPage.java
+/home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Bottle.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/utils/DateUtils.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/pages/ItemPage.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/common/Constants.java
@@ -17,3 +18,4 @@
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/pages/BasePage.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Account.java
 /home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/functions/Catagory.java
+/home/nmut0725/Documents/sysco  automation/sysco_WebAutomationAssignemnt/src/main/java/com/sysco/WebAutomationAssignemnt/pages/BottlePage.java

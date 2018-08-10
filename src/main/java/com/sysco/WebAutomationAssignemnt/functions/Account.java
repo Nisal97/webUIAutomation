@@ -10,10 +10,13 @@ public class Account extends BaseFunctions {
 
     public static void removeItem(){
         LoggerUtil.logINFO("Clicking Cart");
-        ogmAccountPage.clickCart();
+        ogmAccountPage.clickCartIcon();
+        LoggerUtil.logINFO("Removing items");
+        ogmAccountPage.clickRemoveCartItem();
+        LoggerUtil.logINFO("Item removed");
 
 //        LoggerUtil.logINFO("Clicking Remove");
-        ogmAccountPage.clickRemove();
+//        ogmAccountPage.clickRemove();
     }
 
     public static void gotoProduct(){
@@ -25,9 +28,9 @@ public class Account extends BaseFunctions {
         return ogmAccountPage.returnAccountName();
     }
 
-    public static String cartItems(){
-        return ogmAccountPage.returnCartItemCount();
-
-    }
+//    public static String cartItems(){
+//        return ogmAccountPage.returnCartItemCount();
+//
+//    }
 
 }
