@@ -33,7 +33,7 @@ public class CatagoryPage extends BasePage{
         LoggerUtil.logINFO("clicking bottle");
         syscoLabUIOgm.click(orderingBottle);
         LoggerUtil.logINFO("clicked bottle");
-        syscoLabUIOgm.sleep(2);
+//        syscoLabUIOgm.sleep(2);
     }
 
 

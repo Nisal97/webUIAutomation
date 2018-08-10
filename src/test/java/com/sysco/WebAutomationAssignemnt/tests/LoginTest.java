@@ -127,14 +127,14 @@ public class LoginTest extends TestBase {
         Catagory.chooseProduct();
     }
 
-//    @Test(description = "verify bottle name", dependsOnMethods = "testChooseItem", alwaysRun = true)
-//    public void testValidateBottleName() throws Exception{
-//        SoftAssert bottleNameAssert = new SoftAssert();
-//        bottleNameAssert.assertEquals(Bottle.verifyBottleName(),"Bundaberg Royal Liqueur Salted Caramel");
-//        bottleNameAssert.assertAll();
-//    }
+    @Test(description = "verify bottle name", dependsOnMethods = "testChooseItem", alwaysRun = true)
+    public void testValidateBottleName() throws Exception{
+        SoftAssert bottleNameAssert = new SoftAssert();
+        bottleNameAssert.assertEquals(Bottle.verifyBottleName(),"BUNDABERG ROYAL LIQUEUR SALTED CARAMEL");
+        bottleNameAssert.assertAll();
+    }
 
-    @Test(description = "verify bottle price", dependsOnMethods = "testChooseItem", alwaysRun = true)
+    @Test(description = "verify bottle price", dependsOnMethods = "testValidateBottleName", alwaysRun = true)
     public void testValidateBottlePrice() throws Exception{
         SoftAssert bottlePriceAssert = new SoftAssert();
         bottlePriceAssert.assertEquals(Bottle.verifyBottlePrice(),"$49.95");

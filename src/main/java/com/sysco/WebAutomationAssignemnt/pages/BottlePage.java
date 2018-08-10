@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 
 public class BottlePage extends BasePage {
 
-    public By bottleName = By.xpath("//*[@id=\"product-info\"]/div/div[1]/h1/text()");
+    public By bottleName = By.xpath("//*[@id=\"product-info\"]/div/div[1]");
     public By bottlePrice = By.xpath("//*[@id=\"product-price-1414\"]/span");
     public By addCartBtn = By.xpath("//*[@id=\"price-inner-content\"]/div[2]/div/div[2]/button/span/span");
 
