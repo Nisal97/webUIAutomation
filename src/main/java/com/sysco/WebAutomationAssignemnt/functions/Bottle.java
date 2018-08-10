@@ -21,4 +21,8 @@ public class Bottle extends BaseFunctions {
     public static void checkoutItem(){
         ogmBottlePage.clickcheckout();
     }
+
+    public static void proceedCheckout(){
+        ogmBottlePage.clickProceed();
+    }
 }

@@ -149,5 +149,6 @@ public class LoginTest extends TestBase {
     @Test(description = "checkout item", dependsOnMethods = "testBottleAddCart", alwaysRun = true)
     public void testCheckoutItem() throws Exception{
        Bottle.checkoutItem();
+       Bottle.proceedCheckout();
     }
 }
