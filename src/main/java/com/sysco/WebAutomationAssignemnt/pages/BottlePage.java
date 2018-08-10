@@ -30,10 +30,10 @@ public class BottlePage extends BasePage {
     }
 
     public void clickcheckout(){
-        syscoLabUIOgm.sleep(1);
-        LoggerUtil.logINFO("clicking checkout from dropdown");
         syscoLabUIOgm.waitTillElementLoaded(checkoutBtn);
+        LoggerUtil.logINFO("clicking checkout from dropdown");
         syscoLabUIOgm.click(checkoutBtn);
+        syscoLabUIOgm.sleep(1);
         LoggerUtil.logINFO("checkout clicked");
     }
 
